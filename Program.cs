@@ -108,3 +108,18 @@ System.Console.WriteLine($"Год рождения: {birthYearConvert} (в 2030 
 System.Console.WriteLine($"Средний балл: {GpaConvert}");
 System.Console.WriteLine($"Балл >= 4.0: True ");
 System.Console.WriteLine($"Любимая буква: {enteredFavoriteLetter}");
+
+System.Console.WriteLine();
+
+System.Console.Write("Введите ваш рост(м): ");
+string enteredHeight = Console.ReadLine();
+
+System.Console.Write("Введите ваш вес(кг): ");
+string enteredWeight = Console.ReadLine();
+
+double heightConvert = Convert.ToDouble(enteredHeight);
+double weightConvert = Convert.ToDouble(enteredWeight);
+
+double bmi = weightConvert / (heightConvert * heightConvert);
+
+System.Console.WriteLine($"ИМТ: {bmi:F2}");
