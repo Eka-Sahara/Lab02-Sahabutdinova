@@ -83,43 +83,54 @@
 
 
 
-System.Console.Write("Введите имя и фамилию: ");
-string enteredName = Console.ReadLine();
+// System.Console.Write("Введите имя и фамилию: ");
+// string enteredName = Console.ReadLine();
 
-System.Console.Write("Введите группу: ");
-string enteredGroup = Console.ReadLine();
+// System.Console.Write("Введите группу: ");
+// string enteredGroup = Console.ReadLine();
 
-System.Console.Write("Введите год рождения: ");
-string birthYearInput = Console.ReadLine();
+// System.Console.Write("Введите год рождения: ");
+// string birthYearInput = Console.ReadLine();
 
-System.Console.Write("Введите средний балл: ");
-string enteredGpa = Console.ReadLine();
+// System.Console.Write("Введите средний балл: ");
+// string enteredGpa = Console.ReadLine();
 
-System.Console.Write("Введите любимую букву: ");
-string enteredFavoriteLetter = Console.ReadLine();
+// System.Console.Write("Введите любимую букву: ");
+// string enteredFavoriteLetter = Console.ReadLine();
 
-int birthYearConvert = Convert.ToInt32(birthYearInput);
+// int birthYearConvert = Convert.ToInt32(birthYearInput);
 
-double GpaConvert = Convert.ToDouble(enteredGpa);
+// double GpaConvert = Convert.ToDouble(enteredGpa);
 
-System.Console.WriteLine("  Анкета");
-System.Console.WriteLine($"{enteredName}, группа {enteredGroup}");
-System.Console.WriteLine($"Год рождения: {birthYearConvert} (в 2030 будет {2030 - birthYearConvert} год)");
-System.Console.WriteLine($"Средний балл: {GpaConvert}");
-System.Console.WriteLine($"Балл >= 4.0: True ");
-System.Console.WriteLine($"Любимая буква: {enteredFavoriteLetter}");
+// System.Console.WriteLine("  Анкета");
+// System.Console.WriteLine($"{enteredName}, группа {enteredGroup}");
+// System.Console.WriteLine($"Год рождения: {birthYearConvert} (в 2030 будет {2030 - birthYearConvert} год)");
+// System.Console.WriteLine($"Средний балл: {GpaConvert}");
+// System.Console.WriteLine($"Балл >= 4.0: True ");
+// System.Console.WriteLine($"Любимая буква: {enteredFavoriteLetter}");
+
+// System.Console.WriteLine();
+
+// System.Console.Write("Введите ваш рост(м): ");
+// string enteredHeight = Console.ReadLine();
+
+// System.Console.Write("Введите ваш вес(кг): ");
+// string enteredWeight = Console.ReadLine();
+
+// double heightConvert = Convert.ToDouble(enteredHeight);
+// double weightConvert = Convert.ToDouble(enteredWeight);
+
+// double bmi = weightConvert / (heightConvert * heightConvert);
+
+// System.Console.WriteLine($"ИМТ: {bmi:F2}");
+
 
 System.Console.WriteLine();
+System.Console.WriteLine("Разбор ФИО через char");
+System.Console.Write("Введите фамилию: ");
+string enteredSurname = Console.ReadLine();
+System.Console.Write("Введите имя: ");
+string enteredName = Console.ReadLine();
+char name = enteredName[0];
 
-System.Console.Write("Введите ваш рост(м): ");
-string enteredHeight = Console.ReadLine();
-
-System.Console.Write("Введите ваш вес(кг): ");
-string enteredWeight = Console.ReadLine();
-
-double heightConvert = Convert.ToDouble(enteredHeight);
-double weightConvert = Convert.ToDouble(enteredWeight);
-
-double bmi = weightConvert / (heightConvert * heightConvert);
-
-System.Console.WriteLine($"ИМТ: {bmi:F2}");
+System.Console.WriteLine($"{enteredSurname} {name}.");
