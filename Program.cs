@@ -46,3 +46,13 @@ var fullName = "Смирнова А.С."; // компилятор вывел str
 
 System.Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
 
+System.Console.WriteLine();
+System.Console.WriteLine("Ввод текста");
+
+System.Console.Write("Введите ваше имя: ");
+string enteredName = Console.ReadLine();
+
+System.Console.Write("Введите название вашей группы: ");
+string enteredGroup = Console.ReadLine();
+
+System.Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
