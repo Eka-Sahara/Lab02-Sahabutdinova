@@ -1,0 +1,14 @@
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\bin\Debug\net10.0\Lab02-Sahabutdinova.exe
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\bin\Debug\net10.0\Lab02-Sahabutdinova.deps.json
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\bin\Debug\net10.0\Lab02-Sahabutdinova.runtimeconfig.json
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\bin\Debug\net10.0\Lab02-Sahabutdinova.dll
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\bin\Debug\net10.0\Lab02-Sahabutdinova.pdb
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.AssemblyInfoInputs.cache
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.AssemblyInfo.cs
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.csproj.CoreCompileInputs.cache
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.dll
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\refint\Lab02-Sahabutdinova.dll
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.pdb
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.genruntimeconfig.cache
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\ref\Lab02-Sahabutdinova.dll
