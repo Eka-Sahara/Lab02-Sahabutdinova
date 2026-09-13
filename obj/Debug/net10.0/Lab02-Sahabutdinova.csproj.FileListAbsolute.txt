@@ -12,3 +12,4 @@ C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\refint\Lab02-Saha
 C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.pdb
 C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.genruntimeconfig.cache
 C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\ref\Lab02-Sahabutdinova.dll
+C:\Users\Tuman\Documents\Lab02-Sahabutdinova\obj\Debug\net10.0\Lab02-Sahabutdinova.sourcelink.json
