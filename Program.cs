@@ -36,3 +36,13 @@ decimal priceDecimal = 0.1m + 0.2m;
 
 System.Console.WriteLine($"double: 0.1 + 0.2 = {priceDouble}");
 System.Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
+
+System.Console.WriteLine();
+System.Console.WriteLine("var");
+
+var studentAge = 20;    // компилятор вывел int
+var gpa = 4.75; // компиляор вывел double
+var fullName = "Смирнова А.С."; // компилятор вывел string
+
+System.Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
+
