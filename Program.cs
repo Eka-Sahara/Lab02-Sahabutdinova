@@ -134,3 +134,25 @@ string enteredName = Console.ReadLine();
 char name = enteredName[0];
 
 System.Console.WriteLine($"{enteredSurname} {name}.");
+
+System.Console.WriteLine();
+System.Console.WriteLine("TryParse на трёх типах");
+
+System.Console.Write("Введите целое число: ");
+string enteredNum = System.Console.ReadLine();
+
+bool wasSuccessful = int.TryParse(enteredNum, out int numder);
+
+System.Console.Write("Введите дробное число: ");
+string enteredDouble = System.Console.ReadLine();
+
+bool wasSuccessfulDouble = double.TryParse(enteredDouble, out double numderDouble);
+
+System.Console.Write("Введите дату: ");
+string enteredData = System.Console.ReadLine();
+
+bool wasSuccessfulData = DateTime.TryParse(enteredData, out DateTime numderData);
+
+System.Console.WriteLine($"Удалось преобразовать: {wasSuccessful}, значение: {numder}");
+System.Console.WriteLine($"Удалось преобразовать: {wasSuccessfulDouble}, значение: {numderDouble}");
+System.Console.WriteLine($"Удалось преобразовать: {wasSuccessfulData}, значение: {numderData}");
