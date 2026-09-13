@@ -56,3 +56,28 @@ System.Console.Write("Введите название вашей группы: "
 string enteredGroup = Console.ReadLine();
 
 System.Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
+
+System.Console.WriteLine();
+System.Console.WriteLine("Ввод чисел: Convert и Parse");
+
+System.Console.Write("Введите ваш год рождения: ");
+string birthYearInput = Console.ReadLine();
+
+int birthYearConvert = Convert.ToInt32(birthYearInput);
+int birthYearParse = int.Parse(birthYearInput);
+
+System.Console.WriteLine($"Convert.ToInt32: {birthYearConvert}");
+System.Console.WriteLine($"int.Parse:       {birthYearParse}");
+System.Console.WriteLine($"В 2030 году вам будет: {2030 - birthYearConvert} лет");
+
+System.Console.WriteLine();
+System.Console.WriteLine("Ввод чисел: TryParse");
+
+System.Console.Write("Введите количество прочитанных книг за семестр: ");
+string booksInput = Console.ReadLine();
+
+bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
+
+System.Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
+System.Console.WriteLine($"Значение переменной booksCount: {booksCount}");
+
