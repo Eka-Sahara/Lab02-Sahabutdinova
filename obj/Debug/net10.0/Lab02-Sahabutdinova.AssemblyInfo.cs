@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab02-Sahabutdinova")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5e6857c05c174fa05899635405c8bb8e5c6df9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f43f6dd895c90197b5d124f9923dff9c983bf43")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab02-Sahabutdinova")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab02-Sahabutdinova")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
